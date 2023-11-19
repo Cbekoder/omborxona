@@ -10,22 +10,28 @@
     <title>Ombor</title>
 </head>
 <body>
-    <div class="container w-100">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h2 align="center">Bo`limlar</h2>
+            <div class="col-md-12 text-center">
+                <h2>Bo`limlar</h2>
             </div>
         </div>
-        <div class="row wix w-75 m-auto">
-            <a href="/products/" class="btn btn-dark p-5 wix col-md-6">
-                Mahsulot
-            </a>
-            <a href="/clients/" class="btn btn-success p-5 wix col-md-6">
-                Client
-            </a>
-            <a href="/stats/" class="btn btn-warning p-5 wix col-md-12">
-                Statistika
-            </a>
+        <div class="row w-75 m-auto">
+            <div class="col-md-6 mb-4">
+                <a href="/products/" class="btn btn-dark btn-block py-5">
+                    Mahsulot
+                </a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="/clients/" class="btn btn-success btn-block py-5">
+                    Client
+                </a>
+            </div>
+            <div class="col-md-12">
+                <a href="/stats/" class="btn btn-warning btn-block py-5">
+                    Statistika
+                </a>
+            </div>
         </div>
     </div>
     <script src="{% static 'js/main.js'%}"></script>

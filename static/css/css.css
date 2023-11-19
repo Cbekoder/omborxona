@@ -2,10 +2,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -100%);
-          transform: translate(-50%, -100%);
-}/*# sourceMappingURL=css.css.map */
+  transform: translate(-50%, -100%);
+}
 
-/* .wix{
-  width: 200px;
-} */
+/* Add any additional styling here */
